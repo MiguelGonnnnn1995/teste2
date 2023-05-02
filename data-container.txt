@@ -1,0 +1,552 @@
+// Welcome7.java
+
+package io.codebeautify;
+
+public class Welcome7 {
+    private String name;
+    private String version;
+    private String description;
+    private String homepage;
+    private String author;
+    private String[] contributors;
+    private boolean welcome7Private;
+    private String[] keywords;
+    private Dependencies dependencies;
+    private DevDependencies devDependencies;
+    private Repository repository;
+    private Bugs bugs;
+    private String license;
+    private Scripts scripts;
+    private Engines engines;
+    private Standard standard;
+    private Nyc nyc;
+    private Jest jest;
+
+    public String getName() { return name; }
+    public void setName(String value) { this.name = value; }
+
+    public String getVersion() { return version; }
+    public void setVersion(String value) { this.version = value; }
+
+    public String getDescription() { return description; }
+    public void setDescription(String value) { this.description = value; }
+
+    public String getHomepage() { return homepage; }
+    public void setHomepage(String value) { this.homepage = value; }
+
+    public String getAuthor() { return author; }
+    public void setAuthor(String value) { this.author = value; }
+
+    public String[] getContributors() { return contributors; }
+    public void setContributors(String[] value) { this.contributors = value; }
+
+    public boolean getWelcome7Private() { return welcome7Private; }
+    public void setWelcome7Private(boolean value) { this.welcome7Private = value; }
+
+    public String[] getKeywords() { return keywords; }
+    public void setKeywords(String[] value) { this.keywords = value; }
+
+    public Dependencies getDependencies() { return dependencies; }
+    public void setDependencies(Dependencies value) { this.dependencies = value; }
+
+    public DevDependencies getDevDependencies() { return devDependencies; }
+    public void setDevDependencies(DevDependencies value) { this.devDependencies = value; }
+
+    public Repository getRepository() { return repository; }
+    public void setRepository(Repository value) { this.repository = value; }
+
+    public Bugs getBugs() { return bugs; }
+    public void setBugs(Bugs value) { this.bugs = value; }
+
+    public String getLicense() { return license; }
+    public void setLicense(String value) { this.license = value; }
+
+    public Scripts getScripts() { return scripts; }
+    public void setScripts(Scripts value) { this.scripts = value; }
+
+    public Engines getEngines() { return engines; }
+    public void setEngines(Engines value) { this.engines = value; }
+
+    public Standard getStandard() { return standard; }
+    public void setStandard(Standard value) { this.standard = value; }
+
+    public Nyc getNyc() { return nyc; }
+    public void setNyc(Nyc value) { this.nyc = value; }
+
+    public Jest getJest() { return jest; }
+    public void setJest(Jest value) { this.jest = value; }
+}
+
+// Bugs.java
+
+package io.codebeautify;
+
+public class Bugs {
+    private String url;
+
+    public String getURL() { return url; }
+    public void setURL(String value) { this.url = value; }
+}
+
+// Dependencies.java
+
+package io.codebeautify;
+
+public class Dependencies {
+    private String bodyParser;
+    private String colors;
+    private String config;
+    private String cookieParser;
+    private String cors;
+    private String dottie;
+    private String epilogueJS;
+    private String errorhandler;
+    private String express;
+    private String expressJwt;
+    private String fsExtra;
+    private String glob;
+    private String grunt;
+    private String gruntAngularTemplates;
+    private String gruntContribClean;
+    private String gruntContribCompress;
+    private String gruntContribConcat;
+    private String gruntContribUglify;
+    private String hashids;
+    private String helmet;
+    private String htmlEntities;
+    private String jasmine;
+    private String jsYAML;
+    private String jsonwebtoken;
+    private String jssha;
+    private String libxmljs;
+    private String marsdb;
+    private String morgan;
+    private String multer;
+    private String pdfkit;
+    private String replace;
+    private String request;
+    private String sanitizeHTML;
+    private String sequelize;
+    private String serveFavicon;
+    private String serveIndex;
+    private String socketIo;
+    private String sqlite3;
+    private String z85;
+
+    public String getBodyParser() { return bodyParser; }
+    public void setBodyParser(String value) { this.bodyParser = value; }
+
+    public String getColors() { return colors; }
+    public void setColors(String value) { this.colors = value; }
+
+    public String getConfig() { return config; }
+    public void setConfig(String value) { this.config = value; }
+
+    public String getCookieParser() { return cookieParser; }
+    public void setCookieParser(String value) { this.cookieParser = value; }
+
+    public String getCors() { return cors; }
+    public void setCors(String value) { this.cors = value; }
+
+    public String getDottie() { return dottie; }
+    public void setDottie(String value) { this.dottie = value; }
+
+    public String getEpilogueJS() { return epilogueJS; }
+    public void setEpilogueJS(String value) { this.epilogueJS = value; }
+
+    public String getErrorhandler() { return errorhandler; }
+    public void setErrorhandler(String value) { this.errorhandler = value; }
+
+    public String getExpress() { return express; }
+    public void setExpress(String value) { this.express = value; }
+
+    public String getExpressJwt() { return expressJwt; }
+    public void setExpressJwt(String value) { this.expressJwt = value; }
+
+    public String getFSExtra() { return fsExtra; }
+    public void setFSExtra(String value) { this.fsExtra = value; }
+
+    public String getGlob() { return glob; }
+    public void setGlob(String value) { this.glob = value; }
+
+    public String getGrunt() { return grunt; }
+    public void setGrunt(String value) { this.grunt = value; }
+
+    public String getGruntAngularTemplates() { return gruntAngularTemplates; }
+    public void setGruntAngularTemplates(String value) { this.gruntAngularTemplates = value; }
+
+    public String getGruntContribClean() { return gruntContribClean; }
+    public void setGruntContribClean(String value) { this.gruntContribClean = value; }
+
+    public String getGruntContribCompress() { return gruntContribCompress; }
+    public void setGruntContribCompress(String value) { this.gruntContribCompress = value; }
+
+    public String getGruntContribConcat() { return gruntContribConcat; }
+    public void setGruntContribConcat(String value) { this.gruntContribConcat = value; }
+
+    public String getGruntContribUglify() { return gruntContribUglify; }
+    public void setGruntContribUglify(String value) { this.gruntContribUglify = value; }
+
+    public String getHashids() { return hashids; }
+    public void setHashids(String value) { this.hashids = value; }
+
+    public String getHelmet() { return helmet; }
+    public void setHelmet(String value) { this.helmet = value; }
+
+    public String getHTMLEntities() { return htmlEntities; }
+    public void setHTMLEntities(String value) { this.htmlEntities = value; }
+
+    public String getJasmine() { return jasmine; }
+    public void setJasmine(String value) { this.jasmine = value; }
+
+    public String getJSYAML() { return jsYAML; }
+    public void setJSYAML(String value) { this.jsYAML = value; }
+
+    public String getJsonwebtoken() { return jsonwebtoken; }
+    public void setJsonwebtoken(String value) { this.jsonwebtoken = value; }
+
+    public String getJssha() { return jssha; }
+    public void setJssha(String value) { this.jssha = value; }
+
+    public String getLibxmljs() { return libxmljs; }
+    public void setLibxmljs(String value) { this.libxmljs = value; }
+
+    public String getMarsdb() { return marsdb; }
+    public void setMarsdb(String value) { this.marsdb = value; }
+
+    public String getMorgan() { return morgan; }
+    public void setMorgan(String value) { this.morgan = value; }
+
+    public String getMulter() { return multer; }
+    public void setMulter(String value) { this.multer = value; }
+
+    public String getPdfkit() { return pdfkit; }
+    public void setPdfkit(String value) { this.pdfkit = value; }
+
+    public String getReplace() { return replace; }
+    public void setReplace(String value) { this.replace = value; }
+
+    public String getRequest() { return request; }
+    public void setRequest(String value) { this.request = value; }
+
+    public String getSanitizeHTML() { return sanitizeHTML; }
+    public void setSanitizeHTML(String value) { this.sanitizeHTML = value; }
+
+    public String getSequelize() { return sequelize; }
+    public void setSequelize(String value) { this.sequelize = value; }
+
+    public String getServeFavicon() { return serveFavicon; }
+    public void setServeFavicon(String value) { this.serveFavicon = value; }
+
+    public String getServeIndex() { return serveIndex; }
+    public void setServeIndex(String value) { this.serveIndex = value; }
+
+    public String getSocketIo() { return socketIo; }
+    public void setSocketIo(String value) { this.socketIo = value; }
+
+    public String getSqlite3() { return sqlite3; }
+    public void setSqlite3(String value) { this.sqlite3 = value; }
+
+    public String getZ85() { return z85; }
+    public void setZ85(String value) { this.z85 = value; }
+}
+
+// DevDependencies.java
+
+package io.codebeautify;
+
+public class DevDependencies {
+    private String chai;
+    private String codeclimateTestReporter;
+    private String crossSpawn;
+    private String eslint;
+    private String eslintScope;
+    private String formData;
+    private String frisby;
+    private String gruntCLI;
+    private String httpServer;
+    private String jasmineReporters;
+    private String jest;
+    private String karma;
+    private String karmaChromeLauncher;
+    private String karmaCLI;
+    private String karmaCoverage;
+    private String karmaJasmine;
+    private String karmaJunitReporter;
+    private String karmaPhantomjsLauncher;
+    private String karmaSafariLauncher;
+    private String lcovResultMerger;
+    private String mocha;
+    private String nyc;
+    private String phantomjsPrebuilt;
+    private String protractor;
+    private String shelljs;
+    private String sinon;
+    private String sinonChai;
+    private String socketIoClient;
+    private String standard;
+    private String stryker;
+    private String strykerAPI;
+    private String strykerHTMLReporter;
+    private String strykerJasmine;
+    private String strykerKarmaRunner;
+    private String strykerMochaRunner;
+
+    public String getChai() { return chai; }
+    public void setChai(String value) { this.chai = value; }
+
+    public String getCodeclimateTestReporter() { return codeclimateTestReporter; }
+    public void setCodeclimateTestReporter(String value) { this.codeclimateTestReporter = value; }
+
+    public String getCrossSpawn() { return crossSpawn; }
+    public void setCrossSpawn(String value) { this.crossSpawn = value; }
+
+    public String getEslint() { return eslint; }
+    public void setEslint(String value) { this.eslint = value; }
+
+    public String getEslintScope() { return eslintScope; }
+    public void setEslintScope(String value) { this.eslintScope = value; }
+
+    public String getFormData() { return formData; }
+    public void setFormData(String value) { this.formData = value; }
+
+    public String getFrisby() { return frisby; }
+    public void setFrisby(String value) { this.frisby = value; }
+
+    public String getGruntCLI() { return gruntCLI; }
+    public void setGruntCLI(String value) { this.gruntCLI = value; }
+
+    public String getHTTPServer() { return httpServer; }
+    public void setHTTPServer(String value) { this.httpServer = value; }
+
+    public String getJasmineReporters() { return jasmineReporters; }
+    public void setJasmineReporters(String value) { this.jasmineReporters = value; }
+
+    public String getJest() { return jest; }
+    public void setJest(String value) { this.jest = value; }
+
+    public String getKarma() { return karma; }
+    public void setKarma(String value) { this.karma = value; }
+
+    public String getKarmaChromeLauncher() { return karmaChromeLauncher; }
+    public void setKarmaChromeLauncher(String value) { this.karmaChromeLauncher = value; }
+
+    public String getKarmaCLI() { return karmaCLI; }
+    public void setKarmaCLI(String value) { this.karmaCLI = value; }
+
+    public String getKarmaCoverage() { return karmaCoverage; }
+    public void setKarmaCoverage(String value) { this.karmaCoverage = value; }
+
+    public String getKarmaJasmine() { return karmaJasmine; }
+    public void setKarmaJasmine(String value) { this.karmaJasmine = value; }
+
+    public String getKarmaJunitReporter() { return karmaJunitReporter; }
+    public void setKarmaJunitReporter(String value) { this.karmaJunitReporter = value; }
+
+    public String getKarmaPhantomjsLauncher() { return karmaPhantomjsLauncher; }
+    public void setKarmaPhantomjsLauncher(String value) { this.karmaPhantomjsLauncher = value; }
+
+    public String getKarmaSafariLauncher() { return karmaSafariLauncher; }
+    public void setKarmaSafariLauncher(String value) { this.karmaSafariLauncher = value; }
+
+    public String getLcovResultMerger() { return lcovResultMerger; }
+    public void setLcovResultMerger(String value) { this.lcovResultMerger = value; }
+
+    public String getMocha() { return mocha; }
+    public void setMocha(String value) { this.mocha = value; }
+
+    public String getNyc() { return nyc; }
+    public void setNyc(String value) { this.nyc = value; }
+
+    public String getPhantomjsPrebuilt() { return phantomjsPrebuilt; }
+    public void setPhantomjsPrebuilt(String value) { this.phantomjsPrebuilt = value; }
+
+    public String getProtractor() { return protractor; }
+    public void setProtractor(String value) { this.protractor = value; }
+
+    public String getShelljs() { return shelljs; }
+    public void setShelljs(String value) { this.shelljs = value; }
+
+    public String getSinon() { return sinon; }
+    public void setSinon(String value) { this.sinon = value; }
+
+    public String getSinonChai() { return sinonChai; }
+    public void setSinonChai(String value) { this.sinonChai = value; }
+
+    public String getSocketIoClient() { return socketIoClient; }
+    public void setSocketIoClient(String value) { this.socketIoClient = value; }
+
+    public String getStandard() { return standard; }
+    public void setStandard(String value) { this.standard = value; }
+
+    public String getStryker() { return stryker; }
+    public void setStryker(String value) { this.stryker = value; }
+
+    public String getStrykerAPI() { return strykerAPI; }
+    public void setStrykerAPI(String value) { this.strykerAPI = value; }
+
+    public String getStrykerHTMLReporter() { return strykerHTMLReporter; }
+    public void setStrykerHTMLReporter(String value) { this.strykerHTMLReporter = value; }
+
+    public String getStrykerJasmine() { return strykerJasmine; }
+    public void setStrykerJasmine(String value) { this.strykerJasmine = value; }
+
+    public String getStrykerKarmaRunner() { return strykerKarmaRunner; }
+    public void setStrykerKarmaRunner(String value) { this.strykerKarmaRunner = value; }
+
+    public String getStrykerMochaRunner() { return strykerMochaRunner; }
+    public void setStrykerMochaRunner(String value) { this.strykerMochaRunner = value; }
+}
+
+// Engines.java
+
+package io.codebeautify;
+
+public class Engines {
+    private String node;
+
+    public String getNode() { return node; }
+    public void setNode(String value) { this.node = value; }
+}
+
+// Jest.java
+
+package io.codebeautify;
+
+public class Jest {
+    private String[] testMatch;
+    private String[] testPathIgnorePatterns;
+
+    public String[] getTestMatch() { return testMatch; }
+    public void setTestMatch(String[] value) { this.testMatch = value; }
+
+    public String[] getTestPathIgnorePatterns() { return testPathIgnorePatterns; }
+    public void setTestPathIgnorePatterns(String[] value) { this.testPathIgnorePatterns = value; }
+}
+
+// Nyc.java
+
+package io.codebeautify;
+
+public class Nyc {
+    private String[] include;
+    private boolean all;
+    private String[] reporter;
+
+    public String[] getInclude() { return include; }
+    public void setInclude(String[] value) { this.include = value; }
+
+    public boolean getAll() { return all; }
+    public void setAll(boolean value) { this.all = value; }
+
+    public String[] getReporter() { return reporter; }
+    public void setReporter(String[] value) { this.reporter = value; }
+}
+
+// Repository.java
+
+package io.codebeautify;
+
+public class Repository {
+    private String type;
+    private String url;
+
+    public String getType() { return type; }
+    public void setType(String value) { this.type = value; }
+
+    public String getURL() { return url; }
+    public void setURL(String value) { this.url = value; }
+}
+
+// Scripts.java
+
+package io.codebeautify;
+
+public class Scripts {
+    private String postinstall;
+    private String start;
+    private String test;
+    private String frisby;
+    private String preupdateWebdriver;
+    private String updateWebdriver;
+    private String preprotractor;
+    private String protractor;
+    private String stryker;
+    private String vagrant;
+
+    public String getPostinstall() { return postinstall; }
+    public void setPostinstall(String value) { this.postinstall = value; }
+
+    public String getStart() { return start; }
+    public void setStart(String value) { this.start = value; }
+
+    public String getTest() { return test; }
+    public void setTest(String value) { this.test = value; }
+
+    public String getFrisby() { return frisby; }
+    public void setFrisby(String value) { this.frisby = value; }
+
+    public String getPreupdateWebdriver() { return preupdateWebdriver; }
+    public void setPreupdateWebdriver(String value) { this.preupdateWebdriver = value; }
+
+    public String getUpdateWebdriver() { return updateWebdriver; }
+    public void setUpdateWebdriver(String value) { this.updateWebdriver = value; }
+
+    public String getPreprotractor() { return preprotractor; }
+    public void setPreprotractor(String value) { this.preprotractor = value; }
+
+    public String getProtractor() { return protractor; }
+    public void setProtractor(String value) { this.protractor = value; }
+
+    public String getStryker() { return stryker; }
+    public void setStryker(String value) { this.stryker = value; }
+
+    public String getVagrant() { return vagrant; }
+    public void setVagrant(String value) { this.vagrant = value; }
+}
+
+// Standard.java
+
+package io.codebeautify;
+
+public class Standard {
+    private String[] ignore;
+    private Env env;
+    private String[] globals;
+
+    public String[] getIgnore() { return ignore; }
+    public void setIgnore(String[] value) { this.ignore = value; }
+
+    public Env getEnv() { return env; }
+    public void setEnv(Env value) { this.env = value; }
+
+    public String[] getGlobals() { return globals; }
+    public void setGlobals(String[] value) { this.globals = value; }
+}
+
+// Env.java
+
+package io.codebeautify;
+
+public class Env {
+    private boolean jasmine;
+    private boolean node;
+    private boolean browser;
+    private boolean mocha;
+    private boolean protractor;
+
+    public boolean getJasmine() { return jasmine; }
+    public void setJasmine(boolean value) { this.jasmine = value; }
+
+    public boolean getNode() { return node; }
+    public void setNode(boolean value) { this.node = value; }
+
+    public boolean getBrowser() { return browser; }
+    public void setBrowser(boolean value) { this.browser = value; }
+
+    public boolean getMocha() { return mocha; }
+    public void setMocha(boolean value) { this.mocha = value; }
+
+    public boolean getProtractor() { return protractor; }
+    public void setProtractor(boolean value) { this.protractor = value; }
+}
